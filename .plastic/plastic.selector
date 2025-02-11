@@ -1,0 +1,4 @@
+repository "Gara Payment System@Masseka_Game_Studio@cloud"
+  path "/"
+    br "/main"
+    co "/main"

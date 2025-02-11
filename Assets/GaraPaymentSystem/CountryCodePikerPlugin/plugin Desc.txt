@@ -1,0 +1,12 @@
+This Unity Plugin provides you a simple way to create a country code picker for your apps or games. This gives you more than 200+ Countries' name, their flag, and code. The plugin supports Android 4.1 and later and is compatible with Unity 5, Unity 2017, Unity 2018, Unity 2019, Unity 2020, and later. 
+
+
+● Demo scene
+● The demo scene has a drop-down implemented
+● All country Flags assets
+● Country code with their name
+● All Country names are alphabetically sorted
+● Supports Android 4.1+ (API level 16+)
+● Supports Android Oxygen (API 28, API 29) [NEW]
+● Compatible with Unity 5, Unity 2017, Unity 2018, Unity 2019, Unity 2020
+● Nothing extra

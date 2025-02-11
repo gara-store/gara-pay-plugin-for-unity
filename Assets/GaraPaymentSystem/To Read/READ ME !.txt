@@ -1,0 +1,29 @@
+
+
+------------------------------------ PaymentSystem (script)
+in the PaymentSystem script, the importants informations to change are : 
+
+ **** public string platform = "MINI_CUP";
+ platform, you must replace it with the name of the game
+
+ **** public string returnUrl = "https://mini-coupe.gara.store/"; 
+ this is the url that will be launched after payment, you can leave it empty.
+
+ **** public int amount = 0; //The price, minimum 200 
+ This is the purchase price, and you must enter it!  
+ if the purchasing system is located in another scene, you can store the amount in a playerpref type int “amount”.
+
+ **** public string countryCode = ""; 
+  countryCode is the abbreviation of the country.
+  you can store it in a playerpref type string “countryCode”.
+  //User country code, like : FR for France, CI for Cote d'ivoire
+
+ **** public string appUserId = ""; //User GARA account ID
+ appUserId, this is the player's id, when he connects his gara store account.
+  you can store it in a playerpref of type string “id”.
+
+  
+------------------------------------ PaymentUiElement (script)
+everything is already handled, 
+so all you have to do is fill in the missing panels in the PaymentUiElement script.
+or redesign the existing panels to suit your game.
